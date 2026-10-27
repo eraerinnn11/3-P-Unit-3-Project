@@ -19,11 +19,25 @@ Select ONE Additional Feature to Add
   body, html {animation:colorchange 8s infinite alternate;}
   @keyframes colorchange {
     0% {background-color:#FCBBF0}
-    25% {background-color:#F6BBFC}
-    50% {background-color:#DDBBFC}
-    75% {background-color:#D1BBFC}
-    100% {background-color:#C3BBFC}
+    20% {background-color:#F6BBFC}
+    40% {background-color:#DDBBFC}
+    60% {background-color:#D1BBFC}
+    80% {background-color:#C3BBFC}
+    100% {background-color:#BBC0FC;}
   }
+  #title {color:#F862DD}
+  #recipehead1 {color:#E962F8}
+  #recipe1 {color:#E962F8}
+  #recipe1_2 {color:#B062F8}
+  #recipehead2 {color:#9462F8}
+  #recipe2 {color:#9462F8}
+  #recipe2_2 {color:#7462F8}
+  #recipehead3 {color:#626FF8}
+  #recipe3 {color:#626FF8}
+
+
+
+
 </style>
 <head>
   <title>Project: Recipe book</title>
@@ -34,14 +48,17 @@ Select ONE Additional Feature to Add
 
 <body>
 
+
   <h1 id="title">Erin's Recipe Book :)</h1>
 
-  <h2>Contents:</h2>
+  <h2 id="title">Contents:</h2>
 
-  <ol>
-    <li><a href="#recipehead1">Recipe #1</a></li>
+  <ol id="title">
+    <li><a href="#recipehead1">Recipe #1: Tiramisu</a></li>
 
-    <li><a href="#recipehead2">Recipe #2</a>
+    <li><a href="#recipehead2">Recipe #2: Tres Leches</a>
+
+      <li><a href="#recipehead3">Recipe #3: Mango Sticky Rice </a></li>
 
     </a></li>
   </ol>
@@ -49,7 +66,7 @@ Select ONE Additional Feature to Add
   <h2 id="recipehead1">Recipe #1: Tiramisu</h2>
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9Hc90UOtJ9nguBvx7pGtgFJ4js07NWYbiYFV_jkQvyw&s=10" alt="tiramisu cake" width="200">  
 
-  <ul>
+  <ul id="recipe1">
     <li>
       Time: <br> Mixing time- ~45 minutes <br>
       Setting time- 1+ hours
@@ -57,7 +74,7 @@ Select ONE Additional Feature to Add
     <li>Serves: About 12 people</li>
   </ul>
 
-  <table>
+  <table id="recipe1_2">
     <thead>
       <tr>
         <th>Ingredients</th>
@@ -103,26 +120,26 @@ Select ONE Additional Feature to Add
     <tbody>
       <tr>
         <td>Ladyfinger cookies </td>
-        <td></td>
+        <td>1 package</td>
       </tr>
     </tbody>
   </table>
 
-  <p><strong>Step 1:</strong> Do something.
+  <p id="recipe1_2"><strong>Step 1:</strong> Do something.
   </p>
 
-  <p><em>Source: <a href="https://tastesbetterfromscratch.com/easy-tiramisu/">Some recipes websites</a></em></p>
+  <p id="recipe1_2"><em>Source: <a href="https://tastesbetterfromscratch.com/easy-tiramisu/">Tiramisu Recipe Website</a></em></p>
 
   <h2 id="recipehead2">Recipe #2: Tres Leches</h2>
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO24XzHn5NVfS710suw4HLmMUU_M5cTvtBRIZtpiytzQ&s=10" alt="tres leches cake" width="200">
-  <ul>
+  <ul id="recipe2">
     <li>
       Time: 
     </li>
-    <li>Serves: </li>
+    <li>Serves: About 18-20 people  </li>
   </ul>
 
-  <table>
+  <table id="recipe2_2">
     <thead>
       <tr>
         <th>Ingredients</th>
@@ -175,22 +192,85 @@ Select ONE Additional Feature to Add
     <tbody>
       <tr>
         <td>Whole Milk</td>
-        <td>1/3 cup (80ml)</td>
+        <td>1/3  cup (80ml)</td>
       </tr>
     </tbody>
 
     <tbody>
       <tr>
-        <td>Ladyfinger cookies </td>
-        <td></td>
+        <td>Evaporated Milk</td>
+        <td>1 can (354ml) </td>
+      </tr>
+    </tbody>
+
+    <tbody>
+      <tr>
+        <td>Condensed Milk</td>
+        <td>1 can (396 ml) </td>
       </tr>
     </tbody>
   </table>
 
-  <p><strong>Step 1:</strong> Do something.
+  <p id="recipe2_2"><strong>Step 1:</strong> Do something.
   </p>
 
-  <p><em>Source: <a href="https://tastesbetterfromscratch.com/tres-leches-cake/">Some recipes websites</a></em></p>
+  <p id="recipe2_2"><em>Source: <a href="https://tastesbetterfromscratch.com/tres-leches-cake/">Tres Leches Recipe Website </a></em></p>
+
+  <h2 id="recipehead3">Recipe #3</h2>
+  <img src="">  
+
+  <ul id="recipe3">
+    <li>
+      Time: <br> Mixing time- ~45 minutes <br>
+      Setting time- 1+ hours
+    </li>
+    <li>Serves: About 6 people</li>
+  </ul>
+
+  <table id="recipe3_2">
+    <thead>
+      <tr>
+        <th>Ingredients</th>
+        <th>Quantity</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>Heavy Cream</td>
+        <td>1 1/2 Cup (360 ml) </td>
+      </tr>
+    </tbody>
+
+    <tbody>
+      <tr>
+        <td>Mascarpone Cheese</td>
+        <td> 1 container (8 ounces)</td>
+      </tr>
+    </tbody>
+
+    <tbody>
+      <tr>
+        <td>Granulated Sugar</td>
+        <td> 1/3 cup (67g) </td>
+      </tr>
+    </tbody>
+
+    <tbody>
+      <tr>
+        <td>Vanilla Extract</td>
+        <td>1 tsp (5ml)</td>
+      </tr>
+    </tbody>
+
+  
+  </table>
+
+  <p id="recipe3_2"><strong>Step 1:</strong> Do something.
+  </p>
+
+  <p id="recipe3_2"><em>Source: <a href="">Mango Sticky Rice Recipe Website</a></em></p>
+
 
 </body>
 
